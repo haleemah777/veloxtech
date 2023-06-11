@@ -103,7 +103,7 @@
    margin-right: 5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
     .b-img img{
         width: 550px;
     }

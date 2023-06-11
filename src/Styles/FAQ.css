@@ -79,7 +79,7 @@
     border-bottom: 1px solid #5C5C5C;
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
     .faq-two{
         width: 100%;
         display: flex;
