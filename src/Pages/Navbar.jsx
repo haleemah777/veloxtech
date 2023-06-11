@@ -2,8 +2,8 @@ import React,{useState} from 'react'
 import logo from '../assets/exams 2.png'
 import { Link } from 'react-router-dom'
 import '../Styles/Navbar.css'
-// import {GoThreeBars} from 'react-icons/go'
-// import {FaRegTimesCircle} from 'react-icons/fa'
+import {GoThreeBars} from 'react-icons/go'
+import {FaRegTimesCircle} from 'react-icons/fa'
 
 
 
@@ -30,12 +30,12 @@ function Navbar(){
                 <Link to='/login' onClick={handleClose}><button style={{background: '#ffffff',color: '#1178ff', width: '70px', height: '30px',  border: '2px solid #1178ff'}}>Log In</button> </Link>
             </div>
             </div>
-            {/* <div className='menu-bars'>
+            <div className='menu-bars'>
                 {mobile? <FaRegTimesCircle className='times' onClick={handleMobile}/>
                 :
                 <GoThreeBars className='bars' onClick={handleMobile}/>
                 }
-            </div> */}
+            </div>
         </div>
         </div>
     )
