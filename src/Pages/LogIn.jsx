@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from '../assets/exams 2.png'
 import left from '../assets/left.png'
 import right from '../assets/right.png'
-import '../Styles/LogIn.css'
+import '../Styles/Login.css'
 
 
 function LogIn(){
